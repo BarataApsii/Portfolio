@@ -1,6 +1,6 @@
 /* Global CSS to ensure text size adjustment compatibility */
 html {
-    -webkit-text-size-adjust: 100%; /* For older WebKit-based browsers (Safari, older versions of Chrome, etc.) */
+    -webkit-text-size-adjust: 80%; /* For older WebKit-based browsers (Safari, older versions of Chrome, etc.) */
     text-size-adjust: 100%; /* For broader browser support (Chrome 54+, Edge 79+, Firefox, etc.) */
   }
   
