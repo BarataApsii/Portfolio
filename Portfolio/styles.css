@@ -1,0 +1,205 @@
+/* Global CSS to ensure text size adjustment compatibility */
+html {
+    -webkit-text-size-adjust: 100%; /* For older WebKit-based browsers (Safari, older versions of Chrome, etc.) */
+    text-size-adjust: 100%; /* For broader browser support (Chrome 54+, Edge 79+, Firefox, etc.) */
+  }
+  
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #38393a;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    height: 50vh;
+    background-color: #2c2b2b;
+    padding: 20px;
+    color: #f8f8f8;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F07A0C;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a i {
+    margin-right: 15px;
+}
+
+.sidebar ul li a:hover {
+    color: #F07A0C;
+}
+
+/* .sidebar footer {
+    margin-top: auto;
+    font-size: 12px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 50px;
+} 
+/* .sidebar ul li a.active {
+    background-color: #444;
+    color: #F07A0C;
+    border-radius: 5px;
+    padding: 10px;
+} 
+
+.content {
+
+    padding: 20px;
+    width: calc(100% - 270px);
+    color: #f5ebeb;
+}
+
+.content-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-about{
+    display: inline;
+}
+.content-about h1{
+    color: #F07A0C;
+}
+.content-projects{
+    display: inline;
+}
+.content-projects h1{
+    color: #F07A0C;
+}
+.content-projects h3 a{
+    color: #F07A0C;
+}
+.content-projects h3 a:hover{
+    color: #656965;
+}
+.content-contacts{
+    display: inline;
+    color: #fffbf7;
+}
+.content-contacts h1{
+    color: #F07A0C;
+    margin-left: 250px;
+    text-align: center;
+}
+.content-contacts a{
+    color: #F07A0C;
+    align-items: center;
+}
+.content-contacts a:hover{
+    color: #e4ded8;
+    align-items: center;
+}
+.content-contacts a.facebook{
+    margin-left: 20px;
+}
+.content-contacts a.youtube{
+    margin-right: 20px;
+}
+.content-contacts a.instagram{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.text {
+    max-width: 50%;
+    text-align: center;
+}
+
+
+.text h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #f5ebeb;
+}
+
+ .text h1 {
+    margin: 10px 0;
+    font-size: 80px;
+    color: #F07A0C;
+} 
+
+.cv-button {
+    margin-top: 20px;
+}
+
+.cv-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F07A0C;
+    color: rgb(255, 246, 246);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+
+.image {
+    max-width: 60%; /* Adjust as needed 
+}*/
+
+/*.profile {
+    width: 500px; /* Adjust size as needed 
+    height: 500px; /* Adjust size as needed 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #F07A0C;
+    margin-right: 50%;
+    margin-top: 50px;
+}
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+ }
